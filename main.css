@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* --- Start info game --- */
+.info-Game {
+    max-width: 600px;
+    margin: 30px auto 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.info-Game span {
+    display: block;
+    color: red;
+    margin-top: 10px;
+}
+/* --- End info game --- */
+
+/* --- Start interface application --- */
+.app-interface {
+    max-width: 800px;
+    overflow: hidden;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+}
+/* --- End interface application --- */
+
+/* --- Start info application --- */
+.app-interface .app-info {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+}
+/* --- End info application --- */
+
+/* --- Start answers area --- */
+.app-interface .answers-area {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.answers-area h2 {
+    margin-bottom: 10px;
+}
+
+.answers-area .answers .span-answer {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.answers .span-answer:not(:last-child) {
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.answers .span-answer input, label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.answers .span-answer label {
+    position: relative;
+    top: -1px;
+}
+/* --- End answers area --- */
+
+/* --- Start submit button --- */
+.app-interface .submit-btn {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: hotpink;
+    border: 2px solid hotpink;
+    font-weight: bold;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.app-interface .submit-btn:hover {
+    background-color: #fff;
+    color: hotpink;
+}
+/* --- End submit button --- */
+
+/* --- Start bullets countDdownTimer Div --- */
+.app-interface .bullets-coundown-div {
+    background-color: #eee;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.bullets-coundown-div .bullets-span span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: rgb(196, 196, 196);
+    transition: all .5s ease-in-out;
+}
+/* --- End bullets countDdownTimer Divv --- */
+
+/* --- Start result Div --- */
+.result {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bullets-span span.on {
+    background-color: hotpink;
+}
+
+.result p span.red {
+    color: red;
+}
+
+.result p span.green {
+    color: rgb(28, 175, 28);
+}
+
+.result p span.blue {
+    color: blue;
+}
+
+.result .reset-btn {
+    padding: 8px 15px;
+    background-color: hotpink;
+    color: #fff;
+    margin-top: 20px;
+    border: 2px solid hotpink;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.reset-btn:hover {
+    background-color: #fff;
+    border-color: hotpink;
+    color: hotpink;
+}
+
+.result .image {
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+/* --- End result Div --- */
+
+/* --- Start Footer --- */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    color: #fff;
+    padding: 20px;
+}
+
+footer i {
+    color: red;
+}
+
+.float-right {
+    float: right;
+}
+/* --- End Footer --- */
+
+
+/* --- Start Media Queries --- */
+@media screen and (max-width:576px) {
+
+    .app-interface {
+        margin: 20px 10px;
+    }
+
+    .info-Game {
+        margin: 20px 10px 0;
+        font-size: 16px;
+    }
+
+    .app-interface h2 {
+        font-size: 18px;
+    }
+}
+/* --- End Media Queries --- */

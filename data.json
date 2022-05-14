@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is the capital of England?",
+        "answer1": "Tokyou",
+        "answer2": "Berlin",
+        "answer3": "London",
+        "answer4": "England",
+        "rightAnswer": "London"
+    },
+
+    {
+        "question": "What is the distance between earth and sun?",
+        "answer1": "160 million km",
+        "answer2": "200.30 million km",
+        "answer3": "152.07 million km",
+        "answer4": "none of theme",
+        "rightAnswer": "152.07 million km"
+    },
+
+    {
+        "question": "what is the happiest country in the world?",
+        "answer1": "Brazil",
+        "answer2": "Finland",
+        "answer3": "French",
+        "answer4": "Canada",
+        "rightAnswer": "Finland"
+    },
+
+    {
+        "question": "who won the cup world of national football team in 1998?",
+        "answer1": "French",
+        "answer2": "Brazil",
+        "answer3": "Germany",
+        "answer4": "Italy",
+        "rightAnswer": "French"
+    },
+
+    {
+        "question": "what is the currency of turkey?",
+        "answer1": "Dollar",
+        "answer2": "Dirham",
+        "answer3": "Frank",
+        "answer4": "Lira",
+        "rightAnswer": "Lira"
+    },
+
+    {
+        "question": "who is the first women that won the nobel prize?",
+        "answer1": "Albert Einstein",
+        "answer2": "Marie Curie",
+        "answer3": "Lise Meither",
+        "answer4": "Rosalind Franklin",
+        "rightAnswer": "Marie Curie"
+    },
+
+    {
+        "question": "What is the biggest continent in the world by area?",
+        "answer1": "Africa",
+        "answer2": "Europe",
+        "answer3": "Asia",
+        "answer4": "America",
+        "rightAnswer": "Asia"
+    },
+
+    {
+        "question": "What is the approximate age of the earth?",
+        "answer1": "4000 Billion years",
+        "answer2": "4541 Billion years",
+        "answer3": "4530 Billion years",
+        "answer4": "4543 Billion years",
+        "rightAnswer": "4543 Billion years"
+    },
+
+    {
+        "question": "What is the staple food for a third of the world's population?",
+        "answer1": "Rize",
+        "answer2": "Bread",
+        "answer3": "Coffe",
+        "answer4": "Fish",
+        "rightAnswer": "Rize"
+    },
+
+    {
+        "question": "What Animal does not make any sound?",
+        "answer1": "Lion",
+        "answer2": "Ant",
+        "answer3": "Giraffe",
+        "answer4": "The Blue Whale",
+        "rightAnswer": "Giraffe"
+    }
+]
+
