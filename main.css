@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    padding: 0 10px;
+    margin: 30px auto;
+}
+
+/* --- start info game --- */
+.info-game {
+  background-color: #ffff5c;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.info-game span {
+  display: block;
+  color: #ff0000;
+  margin-top: 10px;
+}
+/* --- end info game --- */
+
+/* --- start interface application --- */
+.app-interface {
+  background-color: #eee;
+  padding: 10px;
+}
+/* --- end interface application --- */
+
+/* --- start app informations --- */
+.app-interface .app-info {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+/* --- end app informations --- */
+
+/* --- start app answers area --- */
+.app-interface .app-answer-area {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.app-answer-area h2 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .app-answer-area h2 {
+      font-size: 16px;
+    }
+  }
+
+.app-answer-area .app-answers .answer {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.app-answers .answer:not(:last-child) {
+  border-bottom: 1px solid #dddddd;
+}
+
+.app-answers .answer input, label {
+  cursor: pointer;
+}
+
+.app-answers .answer label {
+  position: relative;
+  top: -1px;
+}
+/* --- end app answers area --- */
+
+/* --- start submit button --- */
+.app-interface button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: #4fb54f;
+  color: #fff;
+  cursor: pointer;
+}
+/* --- end submit button --- */
+
+/* --- start bullets --- */
+.app-interface .app-bullets {
+  background-color: #eee;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.app-bullets .bullets span {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #c4c4c4;
+  transition: background-color 0.5s linear;
+}
+
+.bullets span.on {
+    background-color: #4fb54f;
+  }
+/* --- end bullets --- */
+
+/* --- start result area --- */
+.result-area {
+  padding: 10px;
+  text-align: center;
+}
+
+.result-area p span.red {
+  color: #ff0000;
+}
+
+.result-area p span.green {
+  color: #1caf1c;
+}
+
+.result-area p span.blue {
+  color: #0000ff;
+}
+
+.result-area .reset-btn {
+  padding: 10px 0;
+  background-color: #4fb54f;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result-area img {
+  width: 150px;
+  height: 100px;
+}
+/* --- end result area --- */
+
+/* --- start Footer --- */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333232;
+  color: #fff;
+  padding: 20px;
+}
+
+footer .fa {
+  color: red;
+}
+
+footer span:last-of-type {
+  float: right;
+}
+
+/* --- end Footer --- */
+
